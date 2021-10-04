@@ -33,12 +33,12 @@
     }
   }
 }
-@include minmax(568px, 737px) {
+@include minmax(320px, 481px) {
   .blog {
     &-image img {
       margin-bottom: 40px;
       display: block;
-      width: 100%;
+      max-width: 100%;
       height: 300px;
       object-fit: cover;
     }
