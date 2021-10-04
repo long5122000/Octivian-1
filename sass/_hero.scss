@@ -58,3 +58,12 @@
     }
   }
 }
+@include minmax(320px, 481px) {
+  .hero {
+    &-image {
+      margin-left: auto;
+      max-width: 75%;
+      height: 300px;
+    }
+  }
+}
